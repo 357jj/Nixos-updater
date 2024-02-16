@@ -1,9 +1,7 @@
-figlet "Nixos Updater"
-
-read -p "Do you want to Update nixos? (yes/no) " yn
+read -p "Do you want to update nixos? (yes/no) " yn
 
 case $yn in 
-	yes ) echo ok, we will update nix for you!;;
+	yes ) echo Nixos is going to be updated.!;;
 	no ) echo Ok maybe not today...;
 		exit;;
 	* ) echo invalid response;
